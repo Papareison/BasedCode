@@ -8,7 +8,7 @@ int main (int argc, char *argv[]){
     array[2] = 3;
     array[3] = 4;
     array[4] = 5;
-    printf("Nomral reference: %d\n", array[0]);
+    printf("Normal reference: %d\n", array[0]);
     printf("Weird reference: %d\n", 0[array]);
     printf("Dereference test: %d\n", *(array + sizeof(int) * 2));
 

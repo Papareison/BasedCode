@@ -24,7 +24,7 @@ int force_inverse_cap_to_return_nocap(){
     memcpy(inverse_cap(NULL), force_nocap(), sizeof(int));
 }
 
-int force_inverse_cap_to_return_nocap(){
+int force_inverse_cap_to_return_cap(){
     memcpy(inverse_cap(NULL), force_cap(), sizeof(int));
 }
 

@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <stdint.h>
 
+// returns absolute value of 32 bit int
 int32_t readable_absolute(int32_t i){
     int32_t temp = i >> 31;
     int32_t result = i ^ temp;
